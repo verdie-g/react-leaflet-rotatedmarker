@@ -6,7 +6,7 @@ Instead of extending react-leaflet's Marker, I created a new component named Rot
 
 ## Installation
 
-yarn add react-leaflet-rotatedmarker
+    yarn add react-leaflet-rotatedmarker
 
 ## Usage
 
