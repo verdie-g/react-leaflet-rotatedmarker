@@ -4,7 +4,9 @@
   "description": "React wrapper of bbecquet's leaflet rotated marker",
   "main": "lib/react-leaflet-rotatedmarker.js",
   "scripts": {
-    "transpile": "mkdir -p lib && $(yarn bin)/babel src/RotatedMarker.jsx --out-file lib/react-leaflet-rotatedmarker.js"
+    "transpile": "mkdir -p lib && $(yarn bin)/babel src/RotatedMarker.jsx --out-file lib/react-leaflet-rotatedmarker.js",
+    "clean": "rm -rf lib",
+    "prepare": "yarn run transpile"
   },
   "repository": {
     "type": "git",
