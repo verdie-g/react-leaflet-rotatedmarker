@@ -1,3 +1,5 @@
+# This package is not maintained anymore. Feel free to copy the code  in your project. See the issue #1 for react-leaflet 2
+
 # React Leaflet Rotated Marker
 
 This is a react wrapper of [bbecquet's leaflet rotated marker](https://github.com/bbecquet/Leaflet.RotatedMarker) for [react-leaflet](https://github.com/PaulLeCam/react-leaflet).
