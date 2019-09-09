@@ -23,7 +23,7 @@ export default class RotatedMarker extends Marker {
       this.leafletElement.setRotationAngle(toProps.rotationAngle);
     }
 
-    if (toProps.rotationOrigin !== toProps.rotationOrigin) {
+    if (toProps.rotationOrigin !== fromProps.rotationOrigin) {
       this.leafletElement.setRotationOrigin(toProps.rotationOrigin);
     }
   }
